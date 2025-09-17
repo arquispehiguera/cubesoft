@@ -9,8 +9,9 @@ import { Images } from "../config/images";
     <!-- Imagen -->
     <div class="relative w-full h-96 rounded-xl shadow-xl overflow-hidden border-t-4 border-[#f69917]">
    <img
-  src={Images.IA.src.src} 
-  alt={Images.IA.alt}
+  src={Images.automated.src.src} 
+  alt={Images.automated.alt}
+     transition:name="img-automated"
   class="hero-img absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
   fetchpriority="high"
 />
@@ -20,7 +21,7 @@ import { Images } from "../config/images";
 
     <!-- Texto -->
     <div class="flex flex-col justify-center text-center md:text-left space-y-4">
-      <h3 class="text-3xl md:text-5xl font-extrabold text-gray-900" transition:name="title-ia">
+      <h3 class="text-3xl md:text-5xl font-extrabold text-gray-900" transition:name="title-automated">
         Automatización & IA
       </h3>
       <p class="text-gray-700 text-base md:text-lg leading-relaxed">

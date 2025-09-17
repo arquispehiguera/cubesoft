@@ -71,13 +71,14 @@ import { Images } from "../config/images";
   <div class="group relative hover:border-amber-300 flex flex-col items-center justify-between border border-gray-300 rounded-2xl shadow-lg transition-transform duration-300 overflow-visible">
     <div class="relative w-full h-[200px] flex justify-center items-center">
       <img
-        src={Images.IA.src.src} 
-        alt={Images.IA.alt}
+        src={Images.automated.src.src} 
+        alt={Images.automated.alt}
+        transition:name="img-web"
         class="relative  rounded-md  z-10 max-h-full max-w-[250px] object-contain transition-all duration-500 group-hover:-translate-y-6 group-hover:scale-110"
         fetchpriority="high"
       />
     </div>
-    <h3 class="mt-4 text-lg font-semibold text-black text-center" transition:name="tittle-automated">
+    <h3 class="mt-4 text-lg font-semibold text-black text-center" transition:name="title-automated">
       Automatización / IA
     </h3>
     <div class="w-full rounded-b-2xl p-4 flex flex-col items-center">

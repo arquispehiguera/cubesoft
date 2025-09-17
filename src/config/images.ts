@@ -1,7 +1,7 @@
 import software from "../assets/software.jpg";
 import washclean from "../assets/washclean.jpg";
 import Portal from "../assets/portal.jpg";
-import IA from "../assets/ia.jpg";
+import automated from "../assets/automated.jpg";
 import techpeopple from "../assets/techpeopple.png";
 import industri from "../assets/industri.jpg";
 import ecomerce from "../assets/ecomerce.jpg";
@@ -31,8 +31,8 @@ export const Images = {
     src: background,
     alt: "background",
   },
-  IA: {
-    src: IA,
+  automated: {
+    src: automated,
     alt: "Inteligencia Artificial",
   },
   techpeopple: {

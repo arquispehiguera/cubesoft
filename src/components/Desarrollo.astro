@@ -7,6 +7,7 @@ import { Images } from "../config/images";
       <img
         src={Images.software.src.src} 
         alt={Images.software.alt}
+        transition:name="img-web"
         class="absolute inset-0 w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
         fetchpriority="high"
       />
@@ -67,7 +68,9 @@ import { Images } from "../config/images";
       <img 
         src={Images.washclean.src.src} 
         alt={Images.washclean.alt}
+   
         class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+
       />
       <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
         <p class="text-white font-semibold text-lg">Landing Page</p>
