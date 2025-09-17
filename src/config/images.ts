@@ -1,5 +1,5 @@
 import software from "../assets/software.jpg";
-import WashClean from "../assets/WashClean.jpg";
+import washclean from "../assets/washclean.jpg";
 import Portal from "../assets/Portal.jpg";
 import IA from "../assets/IA.jpg";
 import techpeopple from "../assets/techpeopple.png";
@@ -44,8 +44,8 @@ export const Images = {
     src: software,
     alt: "Desarrollo Web y Fábrica de Software",
   },
-  WashClean: {
-    src: WashClean,
+  washclean: {
+    src: washclean,
     alt: "Wash Clean - Landing Page",
   },
   Portal: {
