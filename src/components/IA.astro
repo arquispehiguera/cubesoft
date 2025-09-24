@@ -1,0 +1,122 @@
+---
+import { Images } from "../config/images";
+---
+
+<div
+  class="flex flex-col gap-12 p-6 md:p-12 bg-gradient-to-b from-white to-gray-50"
+>
+  <!-- Hero -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <!-- Imagen -->
+    <div
+      class="relative w-full h-96 rounded-xl shadow-xl overflow-hidden border-t-4 border-secondary"
+    >
+      <img
+        src={Images.automated.src.src}
+        alt={Images.automated.alt}
+        transition:name="img-automated"
+        class="hero-img absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+        fetchpriority="high"
+      />
+    </div>
+
+    <!-- Texto -->
+    <div
+      class="flex flex-col justify-center text-center md:text-left space-y-4"
+    >
+      <h3
+        class="text-3xl md:text-5xl font-extrabold text-gray-900"
+        transition:name="title-automated"
+      >
+        Automatización & IA
+      </h3>
+      <p class="text-gray-700 text-base md:text-lg leading-relaxed">
+        Impulsa tu negocio con <strong>inteligencia artificial</strong> y
+        <strong>automatización inteligente</strong>. Eliminamos tareas
+        repetitivas, optimizamos flujos de trabajo y generamos <strong
+          >valor inmediato</strong
+        >.
+      </p>
+      <p class="text-sm md:text-base text-gray-600">
+        Desde <strong>RPA</strong> y <strong>chatbots conversacionales</strong> hasta
+        integraciones con <strong>Google Workspace</strong>, <strong
+          >WhatsApp</strong
+        >
+        y plataformas empresariales. Llevamos tu operación a un nuevo nivel de eficiencia.
+      </p>
+    </div>
+  </div>
+
+  <!-- Beneficios IA -->
+  <section>
+    <h2 class="text-xl md:text-2xl font-bold text-center mb-8">
+      ¿Por qué apostar por la automatización?
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="p-6 rounded-xl shadow-lg bg-white hover:shadow-xl transition">
+        <h3 class="font-semibold text-lg">⚡ Mayor productividad</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Libera tiempo de tu equipo con bots que ejecutan procesos 24/7 sin
+          interrupciones ni errores.
+        </p>
+      </div>
+
+      <div class="p-6 rounded-xl shadow-lg bg-white hover:shadow-xl transition">
+        <h3 class="font-semibold text-lg">🤖 Experiencia de cliente</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Chatbots y asistentes virtuales disponibles siempre, mejorando la
+          atención y aumentando la conversión.
+        </p>
+      </div>
+
+      <div class="p-6 rounded-xl shadow-lg bg-white hover:shadow-xl transition">
+        <h3 class="font-semibold text-lg">📊 Decisiones basadas en datos</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Algoritmos que analizan grandes volúmenes de datos y entregan insights
+          en tiempo real.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Casos de uso -->
+  <section class="p-6 md:p-12">
+    <h2 class="text-2xl md:text-3xl font-bold text-center mb-8 text-gray-900">
+      ¿Dónde aplicar la IA en tu negocio?
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition">
+        <h3 class="text-lg font-semibold">Atención al cliente</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Chatbots que responden consultas frecuentes, agendan reuniones o
+          procesan pedidos en segundos.
+        </p>
+      </div>
+
+      <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition">
+        <h3 class="text-lg font-semibold">Automatización administrativa</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Procesamiento de facturas, gestión de correos y reportes financieros
+          automáticos.
+        </p>
+      </div>
+
+      <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition">
+        <h3 class="text-lg font-semibold">Marketing inteligente</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Segmentación avanzada de clientes y campañas automatizadas que mejoran
+          la conversión.
+        </p>
+      </div>
+
+      <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-xl transition">
+        <h3 class="text-lg font-semibold">Optimización de procesos</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Integraciones con Google Calendar, Meet y WhatsApp para ahorrar horas
+          en coordinación y seguimiento.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,99 @@
+---
+import { Images } from "../config/images";
+---
+<div class="flex flex-col gap-8 p-6 md:p-12 ">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+    <div class="relative w-full h-96 rounded-t-lg border-t-4 border-[#f69917] shadow-lg overflow-hidden">
+      <img
+        src={Images.software.src.src} 
+        alt={Images.software.alt}
+        transition:name="img-devweb"
+        class="absolute inset-0 w-full h-full object-cover  group-hover:scale-110 transition"
+        fetchpriority="high"
+      />
+    </div>
+    <div class="flex flex-col justify-center text-center md:text-left">
+      <h3 class="text-2xl md:text-4xl font-bold text-gray-900"  
+      transition:name="tittle-devweb"    
+    
+      >
+    Desarrollo Web y Fábrica de Software
+      </h3>
+
+      <p class="mt-4 text-gray-700 leading-relaxed text-sm md:text-base">
+        Ofrecemos soluciones digitales <strong>personalizadas</strong> 
+        que se adaptan a tu negocio, priorizando 
+        <strong>rendimiento</strong>, <strong>seguridad</strong> y 
+        <strong>escalabilidad</strong>. Desde páginas corporativas hasta 
+        sistemas complejos, desarrollamos con tecnología de última generación.
+      </p>
+    </div>
+  </div>
+
+  <!-- Sección de beneficios -->
+  <section>
+    <h2 class="text-xl md:text-2xl font-semibold text-center mb-6">
+      ¿Por qué elegirnos?
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="p-4 border rounded-xl shadow-md text-center">
+        <h3 class="font-semibold text-lg">⚡ Rendimiento</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Optimizamos cada línea de código para garantizar que tu sitio o sistema cargue rápido y sin interrupciones.
+        </p>
+      </div>
+      <div class="p-4 border rounded-xl shadow-md text-center">
+        <h3 class="font-semibold text-lg">🔒 Seguridad</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Usamos las mejores prácticas en encriptación, protección de datos y accesos para que tu información esté segura.
+        </p>
+      </div>
+      <div class="p-4 border rounded-xl shadow-md text-center">
+        <h3 class="font-semibold text-lg">📈 Escalabilidad</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Construimos pensando en el futuro, para que tu software crezca contigo sin limitaciones.
+        </p>
+      </div>
+    </div>
+  </section>
+
+ <section class="p-6 md:p-12">
+  <h2 class="text-2xl md:text-3xl font-bold text-center mb-8 text-gray-900">
+    Algunos de nuestros proyectos
+  </h2>
+
+  <!-- Grid de imágenes -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    <!-- Proyecto 1 -->
+    <div class="relative group overflow-hidden rounded-xl shadow-lg">
+      <img 
+        src={Images.washclean.src.src} 
+        alt={Images.washclean.alt}
+   
+        class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+
+      />
+      <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+        <p class="text-white font-semibold text-lg">Landing Page</p>
+      </div>
+    </div>
+
+    <!-- Proyecto 2 -->
+    <div class="relative group overflow-hidden rounded-xl shadow-lg">
+      <img 
+        src={Images.Portal.src.src} 
+        alt={Images.Portal.alt}
+        class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+      />
+      <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+        <p class="text-white font-semibold text-lg">Portal Corporativo</p>
+      </div>
+    </div>
+
+
+
+
+  </div>
+</section>
+</div>
