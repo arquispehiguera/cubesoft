@@ -14,10 +14,13 @@ import whatshapp from "../assets/whatshapp.gif";
 import background from "../assets/background.svg";
 import fotoarturo from "../assets/fotoarturo.png";
 import fotoarmando from "../assets/fotoarmando.jpg";
-
+import fotochristian from "../assets/fotochristian.jpg";
 
 export const Images = {
-
+  fotochristian: {
+    src: fotochristian,
+    alt: "Foto Christian",
+  },
   fotoarmando: {
     src: fotoarmando,
     alt: "Foto Armando",
